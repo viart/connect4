@@ -4,6 +4,7 @@ define([
     "use strict";
 
     //FIXME: read from the config
-    return io.connect('http://localhost');
+    var backend = document.location.origin;
+    return io.connect(backend);
 });
 
