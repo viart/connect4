@@ -1,0 +1,22 @@
+<div class="span3 playground">
+  <table class="table table-bordered">
+    <caption>Playground</caption>
+    <thead>
+      <tr>
+        <% _.times(cols, function (i) { %>
+        <th class="js-col" data-col="<%= i %>"></th>
+        <% }); %>
+      </tr>
+    </thead>
+    <tbody>
+      <% _.times(rows, function (y) { %>
+      <tr>
+        <% _.times(cols, function (x) { %>
+        <td id="cell-<%- (x) + '_' + (rows - y - 1) %>"></td>
+        <% }); %>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+  <div class="overlay wait"><p class="text">Waiting for the opponent.</p></div>
+</div>

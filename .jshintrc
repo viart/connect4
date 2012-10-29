@@ -1,0 +1,31 @@
+{
+    "globals": {
+        "$": false,
+        "Backbone": false,
+        "_": false,
+        "define": true,
+        "require": false
+    },
+
+    "node": true,
+    "browser": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "plusplus": false,
+    "regexdash": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+
+    /* Complexity stuff, not settled yet */
+    /* "maxparams": 15, */
+    "maxdepth": 2,
+    /* "maxstatements": 10, */
+    "maxcomplexity": 10
+}

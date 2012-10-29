@@ -1,0 +1,45 @@
+.box-sizing (@type: border-box) {
+    -webkit-box-sizing: @type;
+    -moz-box-sizing: @type;
+    -ms-box-sizing: @type;
+    box-sizing: @type;
+}
+
+.transition (@transition) {
+    -webkit-transition: @transition;
+    -moz-transition: @transition;
+    -ms-transition: @transition;
+    -o-transition: @transition;
+    transition: @transition;
+}
+
+.border-radius (@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.opacity (@opacity: 0.5) {
+    @ieOpacity: @opacity * 100;
+    filter:alpha(opacity=@ieOpacity);
+    -moz-opacity: @opacity;
+    opacity: @opacity;
+}
+
+.word-wrap {
+    -ms-word-break: break-all;
+    word-break: break-all;
+
+    // Non standard for webkit
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}

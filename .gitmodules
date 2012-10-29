@@ -1,0 +1,12 @@
+[submodule "public/js/lib/require"]
+	path = public/js/lib/require
+	url = git://github.com/jrburke/requirejs.git
+[submodule "public/js/lib/underscore"]
+	path = public/js/lib/underscore
+	url = git://github.com/documentcloud/underscore.git
+[submodule "public/js/lib/backbone"]
+	path = public/js/lib/backbone
+	url = git://github.com/documentcloud/backbone.git
+[submodule "public/js/lib/require-text"]
+	path = public/js/lib/require-text
+	url = git://github.com/requirejs/text.git
