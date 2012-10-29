@@ -1,1 +1,1 @@
-^-^
+Connect Four - The game.
